@@ -1,0 +1,794 @@
+* {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+body {
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	background: #FFFFFF;
+	max-width: 100%;
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logo {
+	height: 150px;
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#header {
+	width: auto;
+	height: auto;
+	background: #C24644;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.social {
+	display: inline-block;
+	width: 20%;
+	margin-left: -100px;
+}
+
+.social2 {
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.button-social {
+	display: inline-block;
+	margin: 0px 15px 0px 15px;
+	height: 15px;
+}
+
+.button-social2 {
+	display: inline-block;
+	margin: 10px 10px 0px 10px;
+	height: 12px;
+}
+
+.menu {
+	display: inline-block;
+	width: 60%;
+	margin-left: -100px;
+}
+
+.button-menu {
+	display: inline-block;
+	margin: 0px 50px 0px 50px;
+}
+
+.button-menu a {
+	color: #FFF;
+	transition: .3s;
+}
+
+.button-menu a:hover {
+	color: #000;
+}
+
+#pesquisa {
+	padding: 5px;
+	float: right;
+	text-align: center;
+	border-radius: 20px;
+	border: none;
+	margin-top: -2px;
+	max-width: 15%;
+}
+
+.button-shop, #button-shop {
+	float: right;
+	width: 5%;
+	margin-top: -2px;
+}
+
+.button-shop img, #button-shop img {
+	width: 30px;
+}
+
+.button-cadastro {
+	width: 90px;
+	height: 13px;
+	background: #FFFFFF;
+	border: solid 2px #C24644;
+	border-top-left-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	right: 114px;
+	top: 130px;
+	text-align: center;
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	transition-duration: 0.4s;
+}
+
+.button-entrar {
+	width: 90px;
+	height: 13px;
+	background: #C24644;
+	border: solid 2px #C24644;
+	border-top-right-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	right: 0px;
+	top: 130px;
+	text-align: center;
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	transition-duration: 0.4s;
+}
+
+.button-cadastro a {
+	color: #000;
+}
+
+.button-cadastro a:hover {
+	color: #FFF;
+}
+
+.button-entrar a {
+	color: #FFF;
+}
+
+.button-cadastro:hover, .button-entrar:hover {
+	color: #FFF;
+	border: solid 2px #3B8FAC;
+	background: #3B8FAC;
+}
+
+#image-carousell {
+	width: 100%;
+	height: auto;
+	background: #E6E6E6;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+#page-title, #page-title2 {
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: #3B8FAC;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#page-title {
+	color: #3B8FAC;
+}
+
+#page-title2 {
+	color: #C24662;
+}
+
+#product-header {
+	text-align: center;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.product-title1 {
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #C24644;
+	display: inline-block;
+	margin: 50px 100px 0px 100px;
+}
+
+.product-title2 {
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #3B8FAC;
+	display: inline-block;
+	margin: 50px 100px 0px 100px;
+}
+
+.star {
+	height: 15px;
+	display: inline-block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 15px;
+}
+
+.image-product {
+	height: 200px;
+	max-width: 100%;
+	margin: 20px 0px 0px 10px;
+}
+
+.product-legend {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #aaaaaa;
+	text-align: right;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.product-price1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+.product-price2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	font-weight: bold;
+	color: #000;
+}
+
+.button-product1 {
+	border-radius: 20px;
+	border: solid 1px #C24644;
+	padding: 10px;
+	font-size: 12px;
+	margin: auto;
+	width: 150px;
+	text-align: center;
+	font-weight: normal;
+	transition-duration: 0.4s;
+}
+
+.button-product1 a, .button-product2 a {
+	color: #000;
+}
+
+.button-product1 a:hover, .button-product2 a:hover {
+	color: #FFF;
+}
+
+.button-product1:hover {
+	background-color: #C24644;
+	color: #FFF;
+}
+
+.button-product2 {
+	border-radius: 20px;
+	border: solid 1px #3B8FAC;
+	padding: 10px;
+	font-size: 12px;
+	color: #000;
+	margin: auto;
+	width: 150px;
+	text-align: center;
+	font-weight: normal;
+	transition-duration: 0.4s;
+}
+
+.button-product2:hover {
+	background-color: #3B8FAC;
+	color: #FFF;
+}
+
+/* ---------------------------------------- */
+
+/* FOOTER */
+
+#footer {
+	max-width: 100%;
+	height: auto;
+	min-height: 135px;
+	background: #3B8FAC;
+	margin-top: 30px;
+	padding: 5px;
+	font-family: 'Krona One', sans-serif;
+	color: #000;
+}
+
+.logo-footer {
+	margin: 10px 50px 0 50px;
+	height: 100px;
+	float: left;
+}
+
+.menu-footer {
+	display: block;
+	width: 50%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.menu1-footer {
+	position: relative;
+	bottom: 15px;
+	display: inline-block;
+	margin: 20px 100px 10px 0px;
+	text-align: center;
+	font-size: 10px;
+	color: #000;
+}
+
+.submenu-footer {
+	color: #FFF;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+.map-footer {
+	height: 75px;
+	display: inline-block;
+}
+
+.menu2-footer {
+	position: relative;
+	bottom: 18px;
+	display: inline-block;
+	margin: 0px 0px 5px 0px;
+	text-align: justify;
+	font-size: 10px;
+	color: #000;
+}
+
+.endereco {
+	display: inline-block;
+}
+
+p {
+	margin: 5px 0 0 5px;
+}
+
+/* ---------------------------------------- */
+
+/* MENU MOBILE */
+
+.fa-bars, .menu-mobile {
+	display: none;
+	color: #FFF;
+}
+
+#myLinks li {
+	list-style: none;
+	text-align: left;
+	margin: 0 0 5px 40px;
+}
+
+#myLinks li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* ---------------------------------------- */
+
+/* QUEM SOMOS */
+
+#quemsomos {
+	text-align: center;
+	width: 99%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.flex2 {
+	flex-grow: 1;
+	order: 0;
+}
+
+.flex1 {
+	flex-grow: 1;
+	order: -1;
+}
+
+.image-container {
+	width: 40%;
+}
+
+.image-container img {
+	width: 70%;
+	height: auto;
+	margin-top: 20px;
+	border-radius: 50px;
+}
+
+.container {
+	width: 40%;
+	padding: 0 50px 50px 50px;
+}
+
+.container p {
+	font-size: 150%;
+	margin: 30px auto 0 auto;
+	width: 50%;
+}
+
+/* ---------------------------------------- */
+
+/* CSS GABRIEL */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color:rgb(70, 134, 207);
+}
+ 
+.titulo h1 {
+    margin: 30px;
+    font-family: 'Krona One', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: #3B8FAC;
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.line {
+   background-color: rgb(209, 93, 93);
+   width: 100%;
+   height: 3px;
+}
+ 
+/* Produtos */
+ 
+.produtos {
+    margin-top: 20px;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+ 
+/* Primeiro bloco */
+ 
+.bloco {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+ 
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 480px;
+    font-size: 0.9rem;
+    font-family: 'Krona One', sans-serif;
+}
+ 
+.item h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:rgb(209, 93, 93);
+}
+ 
+.blue {
+    color: rgb(70, 134, 207);
+}
+ 
+.item img {
+    width: 250px;
+    height: auto;
+}
+ 
+.valor p:nth-child(2) {
+    font-size: 2.1rem;
+}
+ 
+.valor p:first-child {
+    padding-top: 4px;
+}
+ 
+.valor {
+    font-weight: bold;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.butoes {
+    display: flex;
+    justify-content: center;
+}
+ 
+.butoes .comprar, .saibaMais {
+   padding: 10px 20px;
+   border-style: none;
+   outline: none;
+   font-size: 0.8rem;
+   letter-spacing: 1px;
+   font-weight: none;
+   font-family: 'Krona One', sans-serif;
+}
+ 
+.comprar {
+    background-color: rgb(209, 93, 93);
+    border-radius: 20px 0 0 20px;
+    padding-left: 200px;
+}
+
+.saibaMais {
+    background-color: rgb(70, 134, 207);
+    border-radius: 0 20px 20px 0;
+}
+ 
+button a {
+    color: white;
+}
+ 
+/* Responsividade */
+@media only screen and (max-width:1249px) {
+    .item { margin: 30px; }
+    .flex1 { flex-grow: 1; order: 0; }
+	.flex2 { flex-grow: 1; order: -1; }
+	.image-container { width: 60%; }
+	.image-container img { width: 80%; }
+	.container { width: 100%; }
+}
+
+/* ---------------------------------------- */
+
+/* CSS LUIZ */
+
+.titulo {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: rgb(70, 134, 207);
+}
+
+.titulo h1 {
+    margin: 30px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #3B8FAC;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line {
+    background-color: rgb(209, 93, 93);
+    width: 100%;
+    height: 3px;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.form label {
+    font-family: 'Krona One', sans-serif;
+
+    font-size: 15px;
+    color: black;
+
+}
+
+.form input {
+    border-radius: 15px;
+    border: 1px solid #3B8FAC;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.form textarea {
+    border-radius: 15px;
+    border: 1px solid #3B8FAC;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_enviar input {
+    border: 1px solid #C24644;
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: #C24644;
+    cursor: pointer;
+    font-family: 'Krona One', sans-serif;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.msg {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.contact_icon {
+    margin-top: 30px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #3B8FAC;
+    border-radius: 30px;
+    width: 450px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_icon i {
+    color: #C24644;
+}
+
+/* ---------------------------------------- */
+
+/* CSS IGOR */
+
+.product-main {
+    text-align: justify;
+	width: 99%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.image-product2 {
+	width: 40%;
+	text-align: right;
+}
+
+.image-product2 img {
+	width: 80%;
+	height: auto;
+}
+
+.container2 {
+	width: 50%;
+	padding: 0 50px 0px 50px;
+}
+
+.container2 p, .container2 ul{
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.container2 ul {
+	padding-left: 30px;
+}
+
+.preco {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.product-price3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+.product-price4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 44px;
+	font-weight: bold;
+	color: #000;
+}
+
+.button-product3 {
+	border-radius: 20px;
+	border: solid 1px #C24644;
+    background: #C24644;
+	padding: 10px 20px;
+	font-size: 20px;
+    font-weight: bold;
+	color: white;
+	margin: 30px auto;
+	width: 150px;
+	text-align: center;
+	font-weight: normal;
+	transition-duration: 0.4s;
+	font-family: 'Krona One', sans-serif;
+}
+
+.button-product3 a{
+	color: #FFF;
+}
+
+.button-product3 a:hover{
+	color: #FFF;
+}
+
+.button-product3:hover {
+	background-color: #3B8FAC;
+	color: #FFF;
+	border: 1px solid #3B8FAC;
+}
+
+/* ---------------------------------------- */
+
+/* RESPONSIVIDADE GERAL */
+@media only screen and (max-width: 490px){
+	.social, .button-cadastro, .button-entrar, #pesquisa, .menu, .button-shop  { display: none; }
+	.menu-mobile { display: block; }
+	.menu-mobile #myLinks { display: none; }
+	.fa-bars { float: left; font-size: 180%; }
+	#header { min-height: 20px; }
+	#button-shop { display: inline-block; float: right; }
+	.product-title1, .product-title2 { margin: 40px 0 30px 0; }
+	.logo-footer { display: none; }
+	.menu1-footer, .menu2-footer { display: block; width: 100%; margin: 30px auto 0 auto; padding: 0; text-align: center; }
+	.menu-footer { width: 100%; }
+	.map-footer { display: none; }
+}	
+@media only screen and (min-width: 491px) and (max-width: 600px){
+	.social { display: none; }
+	.button-cadastro, .button-entrar { top: 160px; }
+	.menu { width: 100%; display: block; margin: 0 auto; }
+	.button-menu { margin: 0 20px; }
+	.button-shop { display: block; float: none; margin: 10px auto 0 auto; }
+	#pesquisa { display: none; }
+	#logo { margin-bottom: 45px; }
+	.logo-footer { display: none; }
+	.menu1-footer, .menu2-footer { display: block; width: 100%; margin: 30px auto 0 auto; padding: 0; text-align: center; }
+	.menu-footer { width: 100%; }
+	.map-footer { display: none; }
+}
+@media only screen and (min-width: 601px) and (max-width: 880px){
+	.social { display: none; }
+	.button-cadastro, .button-entrar { top: 160px; }
+	.menu { width: 100%; display: block; margin: 0 auto; }
+	.button-menu { margin: 0 20px; }
+	.button-shop { display: block; float: none; margin: 10px auto 0 auto; }
+	#pesquisa { display: none; }
+	#logo { margin-bottom: 45px; }
+	.logo-footer { display: none; }
+	.menu1-footer, .menu2-footer { display: inline-block; width: 40%; margin: 30px auto 0 auto; padding: 0; text-align: center; }
+	.menu-footer { width: 100%; }
+	.map-footer { display: none; }
+}
+@media only screen and (min-width: 881px) and (max-width: 1024px){
+	.social { display: none; }
+	.menu { width: 70%; }
+	.button-menu { margin: 0 30px; }
+	.menu { width: 60%; margin: 0 auto; }
+	.menu-footer { width: 60%; float: right; }
+	.map-footer { display: none; }
+} 
+@media only screen and (min-width: 1025px) and (max-width: 1239px){
+	.social { display: none; }
+	.menu { width: 60%; }
+	.menu-footer { width: 70%; float: right; }
+}
+@media only screen and (max-width: 1050px) {
+	.image-product2 { text-align: center; width: 60%; }
+	.container2 { width: 100%; }
+}

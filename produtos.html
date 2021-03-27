@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<title>Produtos</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+		<link rel="shortcut icon" href="./Imagens/icon.jpg" type="image/jpg">
+		<link href='https://fonts.googleapis.com/css?family=Krona One' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   	<script src="https://kit.fontawesome.com/ef7a547aae.js" crossorigin="anonymous"></script>
+
+	    <script>
+			function myFunction() {
+				var y = document.getElementById("button-shop");
+			  	var x = document.getElementById("myLinks");
+			  	if (x.style.display === "block") {
+			  	  	x.style.display = "none";
+			  	  	y.style.margin = "-2px 0 0 0";
+			  	} else {
+			  	  	x.style.display = "block";
+			  	  	y.style.margin = "-30px 0 0 0";
+			  	}
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<!-- INÍCIO HEADER -->
+		<a href="index.html"><img src="./Imagens/logo-transparente.png" id="logo"/></a>
+	
+		<div class="button-cadastro"><a href="">CADASTRAR</a></div>
+		<div class="button-entrar"><a href="">ENTRAR</a></div>
+
+		<div id="header">
+
+			<div class="menu-mobile">
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fas fa-bars"></i>
+				</a>
+				<ul id="myLinks">
+					<li><a href="quem-somos.html">QUEM SOMOS</a></li>
+					<li><a href="produtos.html">PRODUTOS</a></li>
+					<li><a href="contato.html">CONTATO</a></li>
+					<li><a href="">CADASTRAR</a></li>
+					<li><a href="">ENTRAR</a></li>
+				</ul>
+				<div id="button-shop"><a href=""><img src="./Imagens/iconmonstr-shopping-cart-3-48.png" id="button-shop" /></a></div>
+			</div>
+			
+			<div class="social">
+				<a href=""><img src="./Imagens/iconmonstr-whatsapp-1-24.png" class="button-social" /></a>
+				<a href=""><img src="./Imagens/iconmonstr-instagram-11-24.png" class="button-social" /></a>
+				<a href=""><img src="./Imagens/iconmonstr-twitter-1-24.png" class="button-social" /></a>
+				<a href=""><img src="./Imagens/iconmonstr-facebook-3-24.png" class="button-social" /></a>
+				<a href=""><img src="./Imagens/iconmonstr-gmail-1-24.png" class="button-social" /></a>
+			</div>
+
+			<div class="menu">
+				<div class="button-menu"><a href="quem-somos.html">QUEM SOMOS</a></div>
+				<div class="button-menu"><a href="produtos.html">PRODUTOS</a></div>
+				<div class="button-menu"><a href="contato.html">CONTATO</a></div>
+			</div>
+			
+			<input type="search" id="pesquisa" placeholder="Pesquisar">
+			<div class="button-shop"><a href=""><img src="./Imagens/iconmonstr-shopping-cart-3-48.png" class="button-shop" /></a></div>
+		</div>
+		<!-- FINAL HEADER -->
+
+		<main>
+		<!-- TITULO -->
+			<div class="titulo">
+				<div class="line"></div>
+				<h1>Produtos</h1>
+				<div class="line"></div>
+			</div>
+ 
+			<!-- PRODUTOS -->
+			<div class="produtos">
+
+				<!-- PRIMEIRO BLOCO -->
+				<div class="bloco line1">
+					<div class="item item1">
+						<h2>ADITIVO</h2> 
+						<img src="Imagens/aditivo.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<p>70</p>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+ 
+					<div class="item item2">
+						<h2 style="color: rgb(70, 134, 207);">FLUIDO</h2> 
+						<img src="Imagens/fluido.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>55</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+ 
+					<div class="item item3">
+						<h2>LIMPADOR</h2> 
+						<img src="Imagens/limpador.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>70</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+				</div> 
+ 
+				<!-- SEGUNDO BLOCO -->
+				<div class="bloco line2">
+					<div class="item item4">
+						<h2>ADITIVO</h2> 
+						<img src="Imagens/aditivo.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>70</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div> 
+
+					<div class="item item5">
+						<h2 style="color: rgb(70, 134, 207);">FLUIDO</h2> 
+						<img src="Imagens/fluido.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>55</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+ 
+					<div class="item item6">
+						<h2>LIMPADOR</h2> 
+						<img src="Imagens/limpador.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>70</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+				</div> 
+ 
+				<!-- TERCEIRO BLOCO -->
+				<div class="bloco line3">
+					<div class="item item7">
+						<h2>ADITIVO</h2> 
+						<img src="Imagens/aditivo.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>70</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+ 
+					<div class="item item8">
+						<h2 style="color: rgb(70, 134, 207);">FLUIDO</h2> 
+						<img src="Imagens/fluido.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>55</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+ 
+					<div class="item item9">
+						<h2>LIMPADOR</h2> 
+						<img src="Imagens/limpador.png" alt="fundoProdutos"> 
+						<div class="valor">
+							<p>R$</p>
+							<P>70</P>
+						</div> 
+						<div class="butoes">
+							<button class="comprar">
+								<a href="">COMPRAR</a>
+							</button>
+							<button class="saibaMais">
+								<a href="produto-especifico.html">SAIBA MAIS</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- INÍCIO FOOTER -->
+		<div id="footer">
+			<a href="index.html"><img src="./Imagens/logo-transparente.png" class="logo-footer"/></a>
+			<div class="menu-footer"> 
+				<div class="menu1-footer">
+					Contato
+					<div class="submenu-footer">Fale conosco</div>
+					<div class="submenu-footer">(31) 99999-9999</div>
+					<div class="social2">
+						<a href=""><img src="./Imagens/iconmonstr-whatsapp-1-24.png" class="button-social2" /></a>
+						<a href=""><img src="./Imagens/iconmonstr-instagram-11-24.png" class="button-social2" /></a>
+						<a href=""><img src="./Imagens/iconmonstr-twitter-1-24.png" class="button-social2" /></a>
+						<a href=""><img src="./Imagens/iconmonstr-facebook-3-24.png" class="button-social2" /></a>
+						<a href=""><img src="./Imagens/iconmonstr-gmail-1-24.png" class="button-social2" /></a>
+					</div>
+				</div>			
+				<div class="menu2-footer">
+					<img src="./Imagens/map-footer.png" class="map-footer" />
+					<div class="endereco">
+						<p>Rua Joaquim Rafael de Azevedo, 49</p>
+						<p>Nova Pampulha, Belo Horizonte, MG</p>
+						<p><strong>Segunda a Sexta:</strong> 08:00 - 18:00</p>
+						<p><strong>Finais de semana:</strong> 08:00 - 13:00</p>
+					</div>
+				</div> 
+			</div>
+		</div>
+		<!-- FINAL FOOTER-->
+	</body>
+</html>
